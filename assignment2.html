@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>modal example</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <div class = "container">
+             <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#testmodal">
+  Launch modal
+</button>
+    <div class="modal fade" id = "testmodal">
+  <div class="modal-dialog">THis is the Modal Dialogue
+    <div class="modal-content">
+    <div class="modal-header">Enter User Details
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+          <form class=form-horizontal"">
+              <p>Name  </p> <p>  <input type="text"/></p>
+              <p>City </p><p>   <input type="text"/></p>
+              <p>Email </p><p>   <input type="email"></p>
+           
+              <button type="button" class="btn btn-primary">Save changes</button>
+          </form>        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
